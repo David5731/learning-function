@@ -1,0 +1,5 @@
+sentence = input("sentence: ")
+words = sentence.split('-')
+sorted_words = sorted(words)
+result = '-'.join(sorted_words)
+print("answer: ", result)
